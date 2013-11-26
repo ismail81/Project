@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Data;
 namespace WebApplication6
 {
+
     public partial class WebForm1 : System.Web.UI.Page
     {
         SqlConnection connect = new SqlConnection("Data source=./; Initial Catalog=serk; Integrated Security=true");
@@ -26,14 +27,7 @@ namespace WebApplication6
         protected void Page_Load(object sender, EventArgs e)
         {
             Button1.Text = "kaydet";
-            
-           
-            
-            
-
-
-            
-           
+             
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -99,6 +93,16 @@ namespace WebApplication6
         }
       
         protected void TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
+        {
+      
+        }
+
+        protected void Menu2_MenuItemClick(object sender, MenuEventArgs e)
         {
 
         }

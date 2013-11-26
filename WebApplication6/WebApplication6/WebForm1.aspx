@@ -4,13 +4,47 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>SURUCU KURSU OTOMASTONU</title>
+    <style type="text/css">
+        .a:hover {
+            background-color:white;
+        }
+
+
+
+    </style>
 </head>
 <body style="background-color: #66CCFF">
     <form id="form1" runat="server">
         <p>
             &nbsp;</p>
-        <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" StaticSubMenuIndent="10px">
+        <p>
+        <a style="background-color:blue" href="WebForm2.aspx" title="Kaydet">KAYDET</a>
+         
+
+        </p>
+        <asp:Menu ID="Menu2" runat="server" BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" OnMenuItemClick="Menu2_MenuItemClick" StaticSubMenuIndent="10px" Width="600px">
+            <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#FFFBD6" />
+            <DynamicSelectedStyle BackColor="#FFCC66" />
+            <DynamicMenuItemStyle Width="100px" />
+
+            <Items>
+               
+                <asp:MenuItem Text="kaydet" Value="kaydet"></asp:MenuItem>
+                <asp:MenuItem Text="silme" Value="silme"></asp:MenuItem>
+                <asp:MenuItem Text="listeleme" Value="listeleme"></asp:MenuItem>
+                <asp:MenuItem Text="arama" Value="arama"></asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#FFCC66" />
+            <StaticMenuStyle Width="100px" />
+        </asp:Menu>
+        <p>
+            &nbsp;</p>
+        <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" StaticSubMenuIndent="10px" OnMenuItemClick="Menu1_MenuItemClick">
             <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
             <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
             <DynamicMenuStyle BackColor="#F7F6F3" />
@@ -35,6 +69,7 @@
             <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
             <StaticSelectedStyle BackColor="#5D7B9D" />
         </asp:Menu>
+ 
         <p style="background-color: #99CCFF">
             ad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
