@@ -1,0 +1,4 @@
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\WebApplication15\WebApplication15\bin\WebApplication15.dll
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\WebApplication15\WebApplication15\bin\WebApplication15.pdb
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\WebApplication15\WebApplication15\obj\Debug\WebApplication15.dll
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\WebApplication15\WebApplication15\obj\Debug\WebApplication15.pdb

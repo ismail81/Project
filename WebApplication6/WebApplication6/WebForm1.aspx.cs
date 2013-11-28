@@ -11,7 +11,7 @@ namespace WebApplication6
 
     public partial class WebForm1 : System.Web.UI.Page
     {
-        SqlConnection connect = new SqlConnection("Data source=./; Initial Catalog=serk; Integrated Security=true");
+        SqlConnection connect = new SqlConnection("Data source=./; Initial Catalog=BILINMIYOR\ismail; Integrated Security=true");
         SqlCommand komut = new SqlCommand();
         DataTable tb = new DataTable();
         SqlDataAdapter adtr;
@@ -36,7 +36,7 @@ namespace WebApplication6
             {
                 connect.Open();
                 komut.Connection = connect;
-                komut.CommandText = "insert into ögrenci(ad,soyad,sınıf) values('" + TextBox1.Text + "','" + TextBox2.Text + "','" + TextBox3.Text + "')";
+                komut.CommandText = "insert into ogrenci(ad,soyad,sınıf) values('" + TextBox1.Text + "','" + TextBox2.Text + "','" + TextBox3.Text + "')";
                 komut.ExecuteNonQuery();
                 connect.Close();
                 messagebox("kaydedildi");
@@ -54,7 +54,7 @@ namespace WebApplication6
         protected void Button2_Click(object sender, EventArgs e)
         {
             connect.Open();
-            adtr = new SqlDataAdapter("select * from ögrenci", connect);
+            adtr = new SqlDataAdapter("select * from ogrenci", connect);
             adtr.Fill(tb);
             GridView1.DataSource = tb;
             GridView1.DataBind();
@@ -65,7 +65,7 @@ namespace WebApplication6
         {
             connect.Open();
             komut.Connection = connect;
-            komut.CommandText = "delete from ögrenci where id='" + Convert.ToInt32(TextBox4.Text) + "'";
+            komut.CommandText = "delete from ogrenci where id='" + Convert.ToInt32(TextBox4.Text) + "'";
             komut.ExecuteNonQuery();
             connect.Close();
             Button2_Click(sender, e);
@@ -79,7 +79,7 @@ namespace WebApplication6
             if ( TextBox5.Text.Trim()!="")
             {
                 TextBox5.Text = "";
-                adtr = new SqlDataAdapter("select * from ögrenci where ad='" + (TextBox5.Text) + "'", connect);
+                adtr = new SqlDataAdapter("select * from ogrenci where ad='" + (TextBox5.Text) + "'", connect);
                 adtr.Fill(tb);
                 GridView1.DataSource = tb;
                 GridView1.DataBind();

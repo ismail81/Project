@@ -2,3 +2,8 @@ C:\Users\ısmaıl\Desktop\Yeni klasör (2)\arayuz\arayuz\bin\arayuz.dll
 C:\Users\ısmaıl\Desktop\Yeni klasör (2)\arayuz\arayuz\bin\arayuz.pdb
 C:\Users\ısmaıl\Desktop\Yeni klasör (2)\arayuz\arayuz\obj\Debug\arayuz.dll
 C:\Users\ısmaıl\Desktop\Yeni klasör (2)\arayuz\arayuz\obj\Debug\arayuz.pdb
+C:\Users\ısmaıl\Documents\GitHub\Project\arayuz\bin\arayuz.dll
+C:\Users\ısmaıl\Documents\GitHub\Project\arayuz\bin\arayuz.pdb
+C:\Users\ısmaıl\Documents\GitHub\Project\arayuz\obj\Debug\arayuz.csprojResolveAssemblyReference.cache
+C:\Users\ısmaıl\Documents\GitHub\Project\arayuz\obj\Debug\arayuz.dll
+C:\Users\ısmaıl\Documents\GitHub\Project\arayuz\obj\Debug\arayuz.pdb

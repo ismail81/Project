@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication15.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>ISMAIL OZBAL</title>
+<link href="styleSheet1.css" rel="stylesheet" type="text/css" media="screen" />
+ 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+
+			<div id="menu">
+				<ul>
+					<li><a href="WebForm1.aspx">KURUM BİLGİLERİ</a></li>
+					<li><a href="WebForm2.aspx">ÖĞRENCİ BİLGİ</a></li>
+					<li><a href="WebForm3.aspx">VELİ BİLGİLERİ</a></li>
+					<li><a href="WebForm4.aspx">ARAÇ BİLGİLERİ</a></li>
+                    <li><a href="WebForm5.aspx">DERSLER </a></li>
+				</ul>
+			</div>
+            <div id="template">
+
+                 
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+   
+
+            </div>
+          <div id="footer">
+	<p>Copyright (c) 2013 All rights reserved. Design by İsmail ÖZBAL</p>
+</div>
+           
+        
+        
+    </form>
+</body>
+</html>
