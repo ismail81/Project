@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication15.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>ISMAIL OZBAL</title>
+<link href="styleSheet1.css" rel="stylesheet" type="text/css" media="screen" />
+
+ 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+         <div id="enust">
+             <img src="ımage/web-development-icon.png" style="float:left; height: 40px;"/>
+             <a href="https://www.facebook.com">
+             <img src="ımage/fc.jpg" style="float:right; height: 40px;" /></a>
+             <a href="https://twitter.com">
+             <img src="ımage/twic.png" style="float:right; height: 40px;" /></a>
+             <h1 style="text-decoration-line:underline;text-decoration-color:beige;">ESKİŞEHİR SÜRÜCÜ KURSUNA HOŞGELDİNİZ</h1>
+             &nbsp;
+         </div>
+
+			<div id="menu">
+				<ul>
+					<li><a href="WebForm1.aspx">KURUM BİLGİLERİ</a></li>
+					<li><a href="WebForm2.aspx">ÖĞRENCİ BİLGİ</a></li>
+					<li><a href="WebForm3.aspx">DERS İÇERİKLERİ</a></li>
+					<li><a href="WebForm4.aspx">ARAÇ BİLGİLERİ</a></li>
+                    <li><a href="WebForm5.aspx">İLETİŞİM/ULAŞIM</a></li>
+				</ul>
+			</div>
+            <div id="template">
+
+              <div id="sidebar">
+			<ul>
+				<li>
+					<h4>SÜRÜCÜ BELGELERİMİZ</h4>
+                    <ul>
+						<li><a style="text-decoration:none;color:black;" href="WebForm6.aspx">A2 SINIFI</a></li>
+						<li><a style="text-decoration:none;color:black;" href="WebForm7.aspx">B SINIFI</a></li>
+						<li><a style="text-decoration:none;color:black;" href="WebForm8.aspx">D SINIFI</a></li>
+						<li><a style="text-decoration:none;color:black;" href="WebForm9.aspx">E SINIFI</a></li>
+					</ul>
+				</li>
+                <li>
+                    <h4>OPERATÖRLÜK BELGELERİ</h4>
+					<ul>
+						<li><a style="text-decoration:none;color:black;" href="WebForm10.aspx">FORKLİİFT</a></li>
+						<li><a style="text-decoration:none;color:black;" href="WebForm11.aspx">VİNÇ</a></li>
+						<li><a style="text-decoration:none;color:black;" href="WebForm12.aspx">EKSKAVATÖR</a></li>
+						<li><a style="text-decoration:none;color:black;" href="WebForm13.aspx">YÜKLEYİCİ</a></li>
+					</ul>
+                </li>
+				
+			</ul>
+		</div>
+
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+   
+
+            </div>
+          <div id="footer">
+	<p>Copyright (c) 2013 All rights reserved. Design by İsmail ÖZBAL</p>
+</div>
+
+           
+
+        
+        
+    </form>
+</body>
+</html>
