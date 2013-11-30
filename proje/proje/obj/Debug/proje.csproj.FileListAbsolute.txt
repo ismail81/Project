@@ -1,5 +1,0 @@
-C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\bin\proje.dll
-C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\bin\proje.pdb
-C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\obj\Debug\proje.csprojResolveAssemblyReference.cache
-C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\obj\Debug\proje.dll
-C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\obj\Debug\proje.pdb
