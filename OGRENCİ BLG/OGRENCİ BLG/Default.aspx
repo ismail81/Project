@@ -83,15 +83,15 @@
             <td>
                 <asp:Button ID="Button2" runat="server" Text="ARA" Width="58px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TextBox6" runat="server" Width="149px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="style2">
                 ADRES:</td>
             <td class="style3">
-                <asp:TextBox ID="TextBox5" runat="server" Height="98px" 
-                    ontextchanged="TextBox1_TextChanged" Width="194px"></asp:TextBox>
+                <asp:TextBox ID="TextBox5" runat="server" Height="133px" 
+                    ontextchanged="TextBox1_TextChanged" Width="307px"></asp:TextBox>
             </td>
             <td>
                 &nbsp;
@@ -104,7 +104,8 @@
                 &nbsp;</td>
             <td class="style3">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="Button1" runat="server" Text="KAYDET" />
+                <asp:Button ID="Button1" runat="server" Text="KAYDET" Height="41px" 
+                    Width="128px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td>
