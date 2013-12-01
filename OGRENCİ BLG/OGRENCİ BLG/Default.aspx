@@ -30,7 +30,8 @@
             <td class="style2">
                 ADI:</td>
             <td class="style3">
-                <asp:TextBox ID="TextBox1" runat="server" ontextchanged="TextBox1_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server" 
+                ></asp:TextBox>
             </td>
             <td>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -40,7 +41,7 @@
             <td class="style2">
                 SOYADI:</td>
             <td class="style3">
-                <asp:TextBox ID="TextBox2" runat="server" ontextchanged="TextBox1_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" ></asp:TextBox>
             </td>
             <td>
                 &nbsp;</td>
@@ -49,7 +50,7 @@
             <td class="style2">
                 TC:</td>
             <td class="style3">
-                <asp:TextBox ID="TextBox3" runat="server" ontextchanged="TextBox1_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="TextBox3" runat="server" ></asp:TextBox>
             </td>
             <td>
                 &nbsp;</td>
@@ -78,7 +79,7 @@
             <td class="style2">
                 TELEFON NO:</td>
             <td class="style3">
-                <asp:TextBox ID="TextBox4" runat="server" ontextchanged="TextBox1_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server" ></asp:TextBox>
             </td>
             <td>
                 <asp:Button ID="Button2" runat="server" Text="ARA" Width="58px" />
@@ -91,7 +92,7 @@
                 ADRES:</td>
             <td class="style3">
                 <asp:TextBox ID="TextBox5" runat="server" Height="133px" 
-                    ontextchanged="TextBox1_TextChanged" Width="307px"></asp:TextBox>
+                    Width="307px"></asp:TextBox>
             </td>
             <td>
                 &nbsp;
@@ -105,7 +106,7 @@
             <td class="style3">
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Button ID="Button1" runat="server" Text="KAYDET" Height="41px" 
-                    Width="128px" />
+                    Width="128px" onclick="Button1_Click" />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td>
