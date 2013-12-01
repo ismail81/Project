@@ -1,0 +1,5 @@
+C:\Users\kasım\Documents\Visual Studio 2008\Projects\OGRENCİ BLG\OGRENCİ BLG\bin\OGRENCİ BLG.dll
+C:\Users\kasım\Documents\Visual Studio 2008\Projects\OGRENCİ BLG\OGRENCİ BLG\bin\OGRENCİ BLG.pdb
+C:\Users\kasım\Documents\Visual Studio 2008\Projects\OGRENCİ BLG\OGRENCİ BLG\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kasım\Documents\Visual Studio 2008\Projects\OGRENCİ BLG\OGRENCİ BLG\obj\Debug\OGRENCİ BLG.dll
+C:\Users\kasım\Documents\Visual Studio 2008\Projects\OGRENCİ BLG\OGRENCİ BLG\obj\Debug\OGRENCİ BLG.pdb
