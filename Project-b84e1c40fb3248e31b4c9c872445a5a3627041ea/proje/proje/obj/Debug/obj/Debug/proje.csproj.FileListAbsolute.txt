@@ -1,0 +1,15 @@
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\bin\proje.dll
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\bin\proje.pdb
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\obj\Debug\proje.csprojResolveAssemblyReference.cache
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\obj\Debug\proje.dll
+C:\Users\ısmaıl\Desktop\Yeni klasör (2)\proje\proje\obj\Debug\proje.pdb
+C:\Users\ısmaıl\Documents\GitHub\Project\proje\proje\bin\proje.dll
+C:\Users\ısmaıl\Documents\GitHub\Project\proje\proje\bin\proje.pdb
+C:\Users\ısmaıl\Documents\GitHub\Project\proje\proje\obj\Debug\proje.csprojResolveAssemblyReference.cache
+C:\Users\ısmaıl\Documents\GitHub\Project\proje\proje\obj\Debug\proje.dll
+C:\Users\ısmaıl\Documents\GitHub\Project\proje\proje\obj\Debug\proje.pdb
+C:\Users\özge\Desktop\Project-b84e1c40fb3248e31b4c9c872445a5a3627041ea\proje\proje\obj\Debug\bin\proje.dll
+C:\Users\özge\Desktop\Project-b84e1c40fb3248e31b4c9c872445a5a3627041ea\proje\proje\obj\Debug\bin\proje.pdb
+C:\Users\özge\Desktop\Project-b84e1c40fb3248e31b4c9c872445a5a3627041ea\proje\proje\obj\Debug\obj\Debug\proje.csprojResolveAssemblyReference.cache
+C:\Users\özge\Desktop\Project-b84e1c40fb3248e31b4c9c872445a5a3627041ea\proje\proje\obj\Debug\obj\Debug\proje.dll
+C:\Users\özge\Desktop\Project-b84e1c40fb3248e31b4c9c872445a5a3627041ea\proje\proje\obj\Debug\obj\Debug\proje.pdb
