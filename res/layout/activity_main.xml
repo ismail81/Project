@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 
+android:layout_width="match_parent"
+ 
+android:layout_height="match_parent" >
+ 
+ 
+<Button
+ 
+android:id="@+id/btnKoyun"
+ 
+android:layout_width="100dp"
+ 
+android:layout_height="100dp"
+ 
+android:background="@drawable/sheep" />
+
+<Button
+    android:id="@+id/btnAt"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/horse" />
+
+<Button
+    android:id="@+id/btnFil"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/elephant" />
+
+<Button
+    android:id="@+id/btnHoroz"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/btnAt"
+    android:background="@drawable/rooster" />
+
+<Button
+    android:id="@+id/btnEsek"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignLeft="@+id/btnFil"
+    android:layout_below="@+id/btnFil"
+    android:background="@drawable/donkey" />
+
+<Button
+    android:id="@+id/btnOrdek"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/btnFil"
+    android:background="@drawable/duck" />
+
+<Button
+    android:id="@+id/btnKurt"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/btnOrdek"
+    android:background="@drawable/wolf" />
+ 
+</RelativeLayout>
